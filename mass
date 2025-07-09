@@ -1,0 +1,14 @@
+public class MassiveArrayExample {
+    public static void main(String[] args) {
+        // Declaring and initializing a large array
+        int[] largeArray = new int[1000000]; // An array to hold 1 million integers
+
+        // Populating the array
+        for (int i = 0; i < largeArray.length; i++) {
+            largeArray[i] = i * 2;
+        }
+
+        // Accessing an element (example)
+        System.out.println("Element at index 500,000: " + largeArray[500000]);
+    }
+}
